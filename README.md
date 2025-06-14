@@ -27,7 +27,11 @@ This gives you fine-grained control beyond just Neovim's background color, enabl
 
 - Neovim 0.11.0 or higher.
 - A terminal that supports OSC 11 responses (e.g., Ghostty).
-- If using tmux, you might need `allow-passthrough` set to `on in `tmux.conf`.
+- If using tmux, you might need `allow-passthrough` set to `on` in `tmux.conf`.
+
+```conf
+set -g allow-passthrough on
+```
 
 ## Installation
 
